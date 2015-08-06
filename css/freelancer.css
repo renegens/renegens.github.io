@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #ffffff;
 }
 
 h1,
@@ -566,6 +566,10 @@ footer .footer-below {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+
+#tech {
+    font-size: 20px;
 }
 
 
