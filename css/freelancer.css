@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 
 body {
     margin-top: 100px;
@@ -157,7 +151,7 @@ header .intro-text .skills {
 }
 
 .full {
-  background: url(../img/world.jpg) no-repeat center center fixed; 
+  background: url(../img/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -185,7 +179,6 @@ header .intro-text .skills {
     }
 }
 
-
 section {
     padding: 100px 0;
 }
@@ -210,8 +203,14 @@ section.about {
 }
 
 section.skills {
-    color: #fff;
+    color: #000000;
     background: #d82c2e;
+}
+
+section.skills h3 {
+    color: #ffffff;
+    background: #d82c2e;
+    margin-left: -60px;
 }
 
 section.skills p {
