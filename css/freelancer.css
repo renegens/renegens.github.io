@@ -4,10 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    overflow-x: hidden;
-}
 
+body {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background: none;
+}
 p {
     font-size: 20px;
 }
@@ -80,9 +82,10 @@ hr.star-primary:after {
 }
 
 header {
+    padding-top: -50px;
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #F44336;
 }
 
 header .container {
@@ -106,6 +109,7 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: black;
 }
 
 @media(min-width:768px) {
@@ -163,12 +167,19 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+    in
 }
 
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background: #F44336;
 }
+
+#nopadding {
+    padding: 0px 0;
+}
+
 
 section {
     padding: 100px 0;
@@ -181,8 +192,18 @@ section h2 {
 
 section.success {
     color: #fff;
+    background: #212F3F;
+}
+
+section.about {
+    color: #fff;
     background: #18bc9c;
 }
+
+section.portfolio {
+    background: #18bc9c;
+}
+
 
 @media(max-width:767px) {
     section {
@@ -573,7 +594,8 @@ footer .footer-below {
 }
 
 #about a {
-    color: #212F3F ;
+    color: #ffff ;
+    font-weight: bold;
 }
 
 
