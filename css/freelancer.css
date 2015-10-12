@@ -1,8 +1,8 @@
 
 body {
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    background: none;
+    
 }
 p {
     font-size: 20px;
@@ -13,12 +13,12 @@ p.small {
 }
 
 a,
-a:hover,
+
 a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #ffffff;
+    color: #ffffff!important;
 }
 
 h1,
@@ -46,32 +46,29 @@ h6 {
 }
 
 
-
 .img-centered {
     margin: 0 auto;
 }
 
 
-
-
-header {
-    padding-top: -50px;
+.info {
     text-align: center;
     color: #fff;
     background: #d82c2e;
+
 }
 
-header .container {
-    padding-top: 100px;
+    .info .container {
+    
     padding-bottom: 50px;
 }
 
-header img {
+.info img {
     display: block;
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+.info .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: font-family: 'Roboto', sans-serif;
@@ -79,7 +76,7 @@ header .intro-text .name {
     font-weight: 500;
 }
 
-header .intro-text .skills {
+.info .intro-text .skills {
     font-size: 1.25em;
     font-weight: 500;
     color: black;
@@ -92,19 +89,32 @@ header .intro-text .skills {
      height: 1px;
 }
 
+#post {
+    margin-top: 10%;
+}
+
+#post a,
+
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #d82c2e!important;
+} 
+
 
 
 @media(min-width:768px) {
-    header .container {
+    .info .container {
         padding-top: 50px;
         padding-bottom: 100px;
     }
 
-    header .intro-text .name {
+    .info .intro-text .name {
         font-size: 2.75em;
     }
 
-    header .intro-text .skills {
+    .info .intro-text .skills {
         font-size: 1.75em;
     }
 }
@@ -113,7 +123,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 0px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -127,11 +137,11 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 0.5em;
     }
 }
 
@@ -166,12 +176,37 @@ header .intro-text .skills {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 100vh;
+
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background: url(../img/overlay.png) repeat;
+}
+
+#headerContent {
+    position: relative;
+    padding-top: 25%;
+    z-index: 100;
+    
+}
+
+@media(max-width:767px){
+    #headerContent {
+    position: relative;
+    padding-top: 75%;
+    z-index: 100;
+    
+}
 }
 
 
-#nopadding {
-    padding: 764px 0;
-}
 
 @media (min-width:768px) { 
     .navbar > .container {
@@ -187,6 +222,8 @@ header .intro-text .skills {
         width: auto;
         clear: none;
     }
+    
+}
 }
 
 section {
@@ -220,8 +257,16 @@ section.skills {
 section.skills h3 {
     color: #ffffff;
     background: #d82c2e;
-    margin-left: -60px;
+    padding-right: 25%
 }
+
+
+#technical {
+    
+    padding-left: 25%
+}
+
+
 
 section.skills p {
     font-size: 90%;
@@ -238,6 +283,11 @@ section.portfolio {
 
 section.portfolio h3 {
     color:#d82c2e;
+}
+
+section.articles {
+    color: #ffffff;
+    background: #d82c2e;
 }
 
 
@@ -404,8 +454,8 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
-    background-color: #d82c2e;
+    padding-top: 20px;
+    background-color: #373B3F;
 }
 
 footer .footer-col {
@@ -414,7 +464,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #B71C1C;
+    background-color: #373B3F;
 }
 
 .btn-social {

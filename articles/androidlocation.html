@@ -1,4 +1,113 @@
-<p>First tutorial and I will start with a good one. It occurred to me that the pretty iittle phones we have in our pockets are very good gps receivers and that location aware apps or apps that provide guidance with gps is a blessing. Some may argue about the ethics behind such thinks but this is not the topic of the current post. So I will describe the process of using Google Maps and Android location in your app. In particular I used it on the Want Milk app. Want Milk is getting the current position of the user using the fused location api from Google and is displaying some makers on the map.</p>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title>Rene Gens</title>
+    <meta name="Online Resume" content="Personal Website about Rene Gens">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/freelancer.css" rel="stylesheet">
+    <link href="../css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+
+    <!-- Custom Fonts -->
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--load font awesome-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="../js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+	<!-- 					Navbar
+    	===================================================== -->
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top nav-justified">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="">
+                        <a href="https://play.google.com/store/apps/developer?id=Rene%20Gens&hl=en" target="_blank">Android Playstore</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+
+        <!-- /.container-fluid -->
+    </nav>
+
+     <!-- Page Content -->
+    <div class="container" id="post">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8 col-lg-offset-2 ">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1>Google Maps Location</h1>
+
+                <!-- Author -->
+                <p class="lead">
+                    by <a href="../index.html">Rene Gens</a>
+                </p>
+
+                <hr>
+
+                <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="../img/articles/googlemaps.png" alt="">
+
+                <hr>
+
+                <!-- Post Content -->
+                <p>First tutorial and I will start with a good one. It occurred to me that the pretty iittle phones we have in our pockets are very good gps receivers and that location aware apps or apps that provide guidance with gps is a blessing. Some may argue about the ethics behind such thinks but this is not the topic of the current post. So I will describe the process of using Google Maps and Android location in your app. In particular I used it on the Want Milk app. Want Milk is getting the current position of the user using the fused location api from Google and is displaying some makers on the map.</p>
 <p>When I first did these the guide that I used was published on <a title="Teamtreehouse Blog Android Location" href="http://blog.teamtreehouse.com/beginners-guide-location-android" target="_blank">teamtreehouse by Ben Jakuben</a>.</p>
 <p>Fused location The Google Location Services API, part of Google Play Services, provides a more powerful, high-level framework that automates tasks such as location provider choice and power management. Location Services also provides new features such as activity detection that aren’t available in the framework API. Developers who are using the framework API, as well as developers who are just now adding location-awareness to their apps, should strongly consider using the Location Services API.</p>
 <p>So this api is tied to the google play service which means that if on a device there is no google play installed we wont be able to get any accurate data. This means that we first have to add the Google Play Services SDK to the current SDK Manager provided by Android Studio.</p>
@@ -129,3 +238,75 @@ double currentLongitude = location.getLongitude();</code></p>
 mMap.addMarker(options);</code></p>
 <p>That&#8217;s all there is. Seems quite a lot of work but you can save this and whenever you need to get a user location you can use this method and implement this in your apps.</p>
 <p>&nbsp;</p>
+</div>
+                <hr>
+
+        </div>
+        </div>
+        <!-- /.row -->
+
+
+
+       <footer class="text-center" id="social">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4 col-md-offset-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">             
+                        <li><a class="btn-social btn-outline" href="https://www.linkedin.com/in/renegens" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                        <li><a class="btn-social btn-outline" href="https://github.com/renegens" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+                        <li><a class="btn-social btn-outline" href="https://careers.stackoverflow.com/renegens" target="_blank"><i class="fa fa-lg fa-stack-exchange"></i></a></li>
+                        <li><a class="btn-social btn-outline" href="https://plus.google.com/u/0/+ReneGens" target="_blank"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                        <li><a class="btn-social btn-outline" href="https://www.pinterest.com/renegens/" target="_blank"><i class="fa fa-lg fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="text-center" id="social">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Rene Gens 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+    
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+
+    <!-- jQuery -->
+    <script src="..js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="..js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="..js/classie.js"></script>
+
+ 
+
+    <!-- Custom Theme JavaScript -->
+    <script src="..js/freelancer.js"></script>
+
+
+
+</body>
+
+</html>
