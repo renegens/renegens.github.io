@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
@@ -53,6 +53,7 @@ h6 {
 
 
 
+
 header {
     padding-top: -50px;
     text-align: center;
@@ -73,25 +74,34 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
     font-weight: 500;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 500;
     color: black;
 }
 
+.success hr {
+     color: #d82c2e;
+     background: #d82c2e; 
+     width: 15%; 
+     height: 1px;
+}
+
+
+
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 50px;
         padding-bottom: 100px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 2.75em;
     }
 
     header .intro-text .skills {
@@ -127,7 +137,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
@@ -298,6 +308,19 @@ section.portfolio h3 {
     }
 }
 
+.btn{
+
+    background: transparent;
+    color: #F2F2F2;
+
+    /* CSS Transition */
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
