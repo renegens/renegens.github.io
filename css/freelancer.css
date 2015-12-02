@@ -322,7 +322,16 @@ section.portfolio h3 {
 section.articles {
     color: #ffffff;
     background: #d82c2e;
+
 }
+
+#articles a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #ffffff!important;
+}
+
 
 
 @media(max-width:767px) {
