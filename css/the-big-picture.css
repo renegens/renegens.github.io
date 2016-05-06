@@ -8,7 +8,7 @@ body {
 
 	background: url(../images/background.jpg) no-repeat center center fixed; 
 	background-size: cover;
-
+  font-family: 'Roboto', sans-serif;
 	color: white;
 }
 
@@ -27,3 +27,44 @@ html {
   left:50%;
   transform: translate(-50%,-50%);
   }
+
+a span {
+  -webkit-transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+a {
+  color: #ffffff;
+}
+a:hover {
+
+  color: #40a776;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+ul a span {
+  color: #888;
+  font-weight: 300;
+}
+
+ul a {
+  color: #ddd;
+  font-weight: 700;
+}
+ul a span {
+  color: #888;
+  font-weight: 300;
+  padding-right: 2px;
+}
+ul a:hover {
+  color: #48b983;
+  text-decoration: none;
+}
+ul a:hover span {
+  color: #1b8057;
+}
