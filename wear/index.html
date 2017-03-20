@@ -5,9 +5,15 @@
 
 <!-- Html Page Specific -->
 <meta charset="utf-8">
-<title>RAY - App Landing Page</title>
-<meta name="description" content="RAY - App Landing Page">
-<meta name="author" content="Multifour | multifour.com">
+<title>Android Wear Watch Faces</title>
+<meta name="description" content="Android Wear Watch Faces">
+<meta name="author" content="Rene Gens | renegens.com">
+  <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+  <meta name="theme-color" content="#48b983">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#48b983">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#48b983">
 
 <!-- Mobile Specific -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
@@ -26,9 +32,6 @@
 
 <!-- Favicons -->
 <link rel="icon" href="images/favicon.png">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 
 <body data-spy="scroll" data-target=".navMenuCollapse">
@@ -45,17 +48,13 @@
 	<!-- NAVIGATION BEGIN -->
 	<nav class="navbar navbar-fixed-top navbar-slide">
 		<div class="container_fluid"> 
-			<a class="navbar-brand goto" href="index.html#wrap"> <img src="./images/logo_nav.png" alt="Your logo" height="27" width="56" /> </a>
-			<a class="contact-btn icon-note" data-toggle="modal" data-target="#modalContact"></a>
+			<a class="navbar-brand goto" href="index.html#wrap"> </a>
 			<button class="navbar-toggle menu-collapse-btn collapsed" data-toggle="collapse" data-target=".navMenuCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 			<div class="collapse navbar-collapse navMenuCollapse">
 				<ul class="nav">
-					<li><a href="#benefits1">Why We?</a></li>
-					<li><a href="#pricing-table">Business Lunches</a></li>
-					<li><a href="#screenshots">Photos</a></li>
-					<li><a href="#testimonials">Happy Clients</a></li>
-					<li><a href="#facts">Location</a></li>
-					<li><a href="#social">Follow Us</a></li>
+					<li><a href="#benefits1">Simple</a></li>
+					<li><a href="#benefits1">Urbane</a></li>
+					<li><a href="#benefits1">Minimal</a></li>
 				</ul>
 			</div>
 		</div>
@@ -73,17 +72,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<img class="logo" src="./images/logo.png" alt="Your Logo" height="70" width="144" />
-					<h1 class="slogan">The Best Start For<br>Your Elegant Restaurant</h1>
-					<a class="download-btn-alt goto" href="#facts">
+					<h1 class="slogan">Minimal Watch Faces<br>for Android Wear</h1>
+					<!-- <a class="download-btn-alt goto" href="#facts">
 						<div class="btn-slide"></div>
 						<div class="btn-content"><i class="icon icon-pointer"></i>Where<b>We Located</b></div>
-					</a>
+					</a> -->
 				</div>
 			</div>
 		</div>
 		<div id="slides" data-stellar-ratio="0.4">
-			<div class="slides-container" > <img src="images/1.jpg" alt=""> <img src="images/2.jpg" alt=""> <img src="images/3.jpg" alt=""> </div>
+			<div class="slides-container" > <img src="images/background.jpg" alt=""> <img src="images/background.jpg" alt=""> <img src="images/background.jpg" alt=""> </div>
 		</div>
 	</header>
 	<!-- INTRO END --> 
@@ -91,26 +89,27 @@
 	
 	
 	<!-- BENEFITS1 BEGIN -->
-	<section id="benefits1">
+	<section id="benefits1" class="bg-color2">
 		<div class="container">
 			<div class="title">
-				<h2>Why We?</h2>
+				<h2>Meet them</h2>
 			</div>
 			<div class="row">
 				<div class="col-sm-4">
-					<img class="img-circle" src="images/food-3.jpg" alt="" width="280" />
-					<h3>Fresh Vegetables</h3><br>
-					<p>So, what is the secret of successful template design? First of all, it is its friendliness – both for the template’s owner and for his or her future targeted audience.</p>
+				
+					<img class="img-circle" src="images/simple.png" alt="" width="280" />
+					<h3>Simple</h3><br>
+					<p>Simple black and white</p>
 				</div>
 				<div class="col-sm-4">
-					<img class="img-circle" src="images/food-2.jpg" alt="" width="280" />
-					<h3>Delicious Salads</h3><br>
-					<p>Emotions that causes your project in visitor are no less important ticket to success. Modern solutions, interesting elements, unique approach to details make this template recognizable and interesting. </p> 
+					<img class="img-circle" src="images/urbane.png" alt="" width="280" />
+					<h3>Urbane</h3><br>
+					<p>Imagine 19 material colors packed in a minimal watch face with Google Fit steps counter.</p> 
 				</div>
 				<div class="col-sm-4">
-					<img class="img-circle" src="images/food-1.jpg" alt="" width="280" />
-					<h3>Confectionery</h3><br>
-					<p>UX and UI are not just empty phrases for us. It is very important for us that the user could understand correctly the message  your project’s trying to say.</p>
+					<img class="img-circle" src="images/minimal.png" alt="" width="280" />
+					<h3>Minimal</h3><br>
+					<p>Big numbers and black and white backgrounds</p>
 				</div>
 			</div>
 		</div>
@@ -119,7 +118,7 @@
 	
 	
 	
-	<!-- BENEFITS2 BEGIN -->
+	<!-- BENEFITS2 BEGIN 
 	<section id="benefits2" class="img-block-2col bg-color2">
 		<div class="container">
 			<div class="row">
@@ -146,82 +145,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- BENEFITS2 END -->
-	
-	
-	
-	<!-- PRICING TABLE BEGIN -->
-	<section id="pricing-table" class="bg-color3">
-		<div class="container">
-			<div class="title">
-				<h2>Business Lunches</h2>
-				<p>We want the template you downloaded look unique and new for such a long time as it is possible. </p>
-				<ul class="pricing-table">
-					<li class="wow flipInY">
-						<h3>Standard</h3>
-						<span> $0.99 <small>per month</small> </span>
-						<ul class="benefits-list">
-							<li>Responsive</li>
-							<li>Documentation</li>
-							<li class="not">Multiplatform</li>
-							<li class="not">Video background</li>
-							<li class="not">Support</li>
-						</ul>
-					</li>
-					<li class="silver wow flipInY" data-wow-delay="0.2s">
-						<h3>Sliver</h3>
-						<span> $3.99 <small>per month</small> </span>
-						<ul class="benefits-list">
-							<li>Responsive</li>
-							<li>Documentation</li>
-							<li>Multiplatform</li>
-							<li class="not">Video background</li>
-							<li class="not">Support</li>
-						</ul> 
-					</li>
-					<li class="gold wow flipInY" data-wow-delay="0.4s">
-						<div class="stamp"><i class="icon icon-trophy"></i>Best choice</div>
-						<h3>Gold</h3>
-						<span> $8.99 <small>per month</small> </span>
-						<ul class="benefits-list">
-							<li>Responsive</li>
-							<li>Documentation</li>
-							<li>Multiplatform</li>
-							<li>Video background</li>
-							<li class="not">Support</li>
-						</ul>
-					</li>
-					<li class="platinum wow flipInY" data-wow-delay="0.6s">
-						<h3>Platinum</h3>
-						<span> $12.99 <small>per month</small> </span>
-						<ul class="benefits-list">
-							<li>Responsive</li>
-							<li>Documentation</li>
-							<li>Multiplatform</li>
-							<li>Video background</li>
-							<li>Support</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="block-bg"></div>
-	</section>
-	<!-- PRICING TABLE END -->
-	
-	
-	
-	<!-- DOWNLOAD BEGIN -->
-	<section id="download" class="bg-color-grad">
-		<div class="container-fluid wow fadeInDown">
-			<a href="#wrap" data-toggle="modal" data-target="#modalContact">
-				<h2><i class="icon icon-note"></i>Online Booking</h2>
-			</a>
-		</div>
-		<div class="block-bg" data-stellar-ratio="0.5"></div>
-	</section>
-	<!-- DOWNLOAD END -->
-	
+	BENEFITS2 END -->
 	
 	
 	<!-- SCREENSHOTS BEGIN -->
@@ -229,13 +153,10 @@
 		<div class="container-fluid wow fadeIn">
 			<h2>Photos</h2>
 			<div id="screenshots-slider" class="owl-carousel">
-				<a class="item" href="./images/screen1.jpg" title="App Screen 1"><img src="images/screen1.jpg" alt="screen1" width="300" /></a>
-				<a class="item" href="./images/screen2.jpg" title="App Screen 2"><img src="images/screen2.jpg" alt="screen1" width="300" /></a>
-				<a class="item" href="./images/screen3.jpg" title="App Screen 3"><img src="images/screen3.jpg" alt="screen1" width="300" /></a>
-				<a class="item" href="./images/screen4.jpg" title="App Screen 4"><img src="images/screen4.jpg" alt="screen1" width="300" /></a>
-				<a class="item" href="./images/screen5.jpg" title="App Screen 5"><img src="images/screen5.jpg" alt="screen1" width="300" /></a>
-				<a class="item" href="./images/screen6.jpg" title="App Screen 6"><img src="images/screen6.jpg" alt="screen1" width="300" /></a>
-				<a class="item" href="./images/screen7.jpg" title="App Screen 7"><img src="images/screen7.jpg" alt="screen1" width="300" /></a>
+				<a class="item" href="https://play.google.com/store/apps/details?id=com.renegens.simplewatch" title="Simple"><img src="images/simple.png" alt="simple" width="300" /></a>
+				<a class="item" href="https://play.google.com/store/apps/details?id=com.renegens.urbanewatch" title="Urbane"><img src="images/urbane.png" alt="urbane" width="300" /></a>
+				<a class="item" href="https://play.google.com/store/apps/details?id=com.renegens.minimalwatch" title="Minimal"><img src="images/minimal.png" alt=" minimal"  width="300" /></a>
+				<a class="item" href="https://play.google.com/store/apps/details?id=com.renegens.urbanewatch" title="Urbane"><img src="images/urbane2.png" alt="urbane" width="300" /></a>
 			</div>
 		</div>
 	</section>
@@ -243,102 +164,17 @@
 	
 	
 	
-	<!-- FEATURES BEGIN -->
-	<section id="innovations" class="bg-color2">
-		<div class="container">
-			<div class="title">
-				<h2>High Quality</h2>
-				<p>In our work we try to use only the most modern, convenient and interesting solutions.<br>We want the template you downloaded look unique and new for such a long time as it is possible. </p>
-			</div>
-			<img class="screen wow bounceInUp" src="images/cert.jpg" width="700" alt="" />
-		</div>
-		<div id="ray1" class="ray ray-horizontal"></div>
-		<div id="ray2" class="ray ray-horizontal"></div>
-		<div id="ray3" class="ray ray-horizontal"></div>
-		<div id="ray4" class="ray ray-horizontal"></div>
-	</section>
-	<!-- FEATURES END -->
-	
-	
-	
-	<!-- TESTIMONIALS BEGIN -->
-	<section id="testimonials" class="bg-color-main">
-		<div class="container-fluid">
-			<h2>Happy Clients</h2>
-			<div id="testimonials-slider" class="owl-carousel">
-				<div class="item container">
-					<div class="talk">This is a great product. It reveals an individual approach to each customer. I liked the level of the provided service.</div>
-					<img class="photo" src="images/customer_photo.jpg" alt="customer" />
-					<div class="name">John Doe</div>
-					<div class="ocupation">First customer</div>
-				</div>	
-				<div class="item container">
-					<div class="talk">I always thought that people used to pay much for quality. But these guys changed my opinion. The quality exceeds the price many times. I recommend it to everybody.</div>
-					<img class="photo" src="images/customer_photo.jpg" alt="customer" />
-					<div class="name">John Doe</div>
-					<div class="ocupation">First customer</div>
-				</div>
-				<div class="item container">
-					<div class="talk">My colleague recommended them to me. I hesitated for a long time, but than I tried and understood what I had paid off for.</div>
-					<img class="photo" src="images/customer_photo.jpg" alt="customer" />
-					<div class="name">John Doe</div>
-					<div class="ocupation">First customer</div>
-				</div>
-				<div class="item container">
-					<div class="talk">It’s just five stars. I will certainly come back and bring my friends with me.</div>
-					<img class="photo" src="images/customer_photo.jpg" alt="customer" />
-					<div class="name">John Doe</div>
-					<div class="ocupation">First customer</div>
-				</div>
-			</div>
-		</div>
-		<div class="block-bg"></div>
-	</section>
-	<!-- TESTIMONIALS END -->
-	
-	
-	
-	<!-- FACTS BEGIN -->
-	<section id="facts" class="facts-list">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<i class="icon icon-pointer"></i>
-					<h3 class="wow">14 Tasty Str.</h3>
-					<h4>London</h4>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- FACTS END -->
-	
-	
-	
-	<!-- MAP BEGIN -->
-	<section id="canvas-map" class="facts-list bg-color2">
-	</section>
-	<!-- MAP END --> 
-	
-	
-	
 	<!-- SOCIAL BEGIN -->
 	<section id="social" class="bg-color2">
 		<div class="container-fluid">
 			<div class="title">
-				<h2>Follow Us</h2>
-				<p>Follow us in social networks. You can also subscribe for our news. <br>We are going to provide you with actual and important for you information without spam or fluff.</p>
+				<h2>Get them from the Playstore</h2>
 			</div>
-			
-			<ul class="soc-list wow flipInX">
-				<li><a href="#"><i class="icon soc-icon-twitter"></i></a></li>
-				<li><a href="#"><i class="icon soc-icon-facebook"></i></a></li>
-				<li><a href="#"><i class="icon soc-icon-dribbble"></i></a></li>
-				<li><a href="#"><i class="icon soc-icon-googleplus"></i></a></li>
-				<li><a href="#"><i class="icon soc-icon-linkedin"></i></a></li>
-				<li><a href="#"><i class="icon soc-icon-instagram"></i></a></li>
-				<li><a href="#"><i class="icon soc-icon-pinterest"></i></a></li>
-				<li><a href="#"><i class="icon soc-icon-flickr"></i></a></li>
-			</ul>
+
+			<a href="https://play.google.com/store/apps/developer?id=DGRG" target="_blank">
+				<img src="images/playstore.png">
+			</a>
+
 			
 		</div>
 	</section>
@@ -346,25 +182,10 @@
 	
 	
 	
-	<!-- DOWNLOAD BEGIN -->
-	<section id="download" class="bg-color-grad">
-		<div class="container-fluid wow fadeInDown">
-			<a href="#wrap" data-toggle="modal" data-target="#modalContact">
-				<h2><i class="icon icon-note"></i>Online Booking</h2>
-			</a>
-		</div>
-		<div class="block-bg" data-stellar-ratio="0.5"></div>
-	</section>
-	<!-- DOWNLOAD END -->
-	
-	
-	
 	<!-- FOOTER BEGIN -->
 	<footer id="footer">
 		<div class="container"> 
-			<a href="index.html#wrap" class="logo goto"> <img src="./images/logo_small.png" alt="Your Logo" height="35" width="72"/> </a>
-			<p class="copyright">&copy; 2015 RAY <br>
-			Designed by <a href="http://multifour.com/" target="_blank">Multifour.com</a></p>
+			<p class="copyright">&copy; 2017 Rene Gens </p>
 		</div>
 	</footer>
 	<!-- FOOTER END --> 
